@@ -2,7 +2,17 @@
   "name": "interior-style-bot",
   "version": "1.0.0",
   "private": true,
-  "description": "Telegram bot for interior style generation with architecture lock",
+  "description": "AI Telegram bot for photorealistic interior redesign in 27 styles with strict Architecture Lock, geometry QA, Fish Audio voiceover and FFmpeg video rendering.",
+  "keywords": [
+    "interior-design",
+    "telegram-bot",
+    "ai-image-generation",
+    "architecture-lock",
+    "playwright",
+    "opencv",
+    "ffmpeg",
+    "fish-audio"
+  ],
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=9.0.0"
