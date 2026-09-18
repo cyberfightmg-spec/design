@@ -2,6 +2,7 @@
   "name": "browser-worker",
   "version": "1.0.0",
   "private": true,
+  "description": "Playwright worker that generates interior redesign images while enforcing Architecture Lock and geometry QA.",
   "type": "module",
   "scripts": {
     "build": "tsc",
