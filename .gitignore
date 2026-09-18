@@ -1,0 +1,61 @@
+# Interior Style Bot
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+.turbo/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Storage & Databases (runtime data)
+storage/
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Browser profiles (sensitive session data)
+data/chatgpt-profile/
+
+# Video & Media exclusions
+video/
+*.mp4
+*.wav
+*.avi
+*.mov
+*.mkv
+test_audio.wav
+test_norm_rus.mp4
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+services/geometry-guardian/.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Test artifacts
+qa/overlay-*.png
+
+# Temp
+*.tmp
+*.temp

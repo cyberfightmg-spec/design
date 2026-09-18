@@ -1,0 +1,29 @@
+{
+  "name": "interior-style-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram bot for interior style generation with architecture lock",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:integration": "turbo run test:integration",
+    "clean": "turbo run clean && rimraf node_modules",
+    "bot": "pnpm --filter telegram-bot dev",
+    "worker": "pnpm --filter browser-worker dev",
+    "renderer": "pnpm --filter renderer dev",
+    "guardian": "cd services/geometry-guardian && python -m uvicorn main:app --reload"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "rimraf": "^5.0.7",
+    "turbo": "^2.1.0",
+    "typescript": "^5.5.0"
+  },
+  "packageManager": "pnpm@9.4.0"
+}

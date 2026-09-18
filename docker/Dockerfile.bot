@@ -1,0 +1,36 @@
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Install pnpm
+RUN npm install -g pnpm@9.4.0
+
+# Copy workspace files
+COPY package.json pnpm-workspace.yaml turbo.json tsconfig.base.json ./
+COPY packages/ ./packages/
+COPY apps/telegram-bot/ ./apps/telegram-bot/
+COPY config/ ./config/
+COPY assets/ ./assets/
+
+# Install and build
+RUN pnpm install --frozen-lockfile
+RUN pnpm --filter @interior/core build
+RUN pnpm --filter @interior/styles build
+RUN pnpm --filter @interior/voice build
+RUN pnpm --filter telegram-bot build
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+RUN npm install -g pnpm@9.4.0
+
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/packages ./packages
+COPY --from=builder /app/apps/telegram-bot ./apps/telegram-bot
+COPY --from=builder /app/config ./config
+COPY --from=builder /app/assets ./assets
+COPY --from=builder /app/package.json ./
+COPY --from=builder /app/pnpm-workspace.yaml ./
+
+CMD ["node", "apps/telegram-bot/dist/index.js"]

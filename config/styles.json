@@ -1,0 +1,1097 @@
+{
+  "styles": [
+    {
+      "id": "classicismo",
+      "displayName": "КЛАССИЦИЗМ",
+      "voiceText": "Классицизм",
+      "category": "classic",
+      "generationProfile": {
+        "palette": [
+          "ivory",
+          "cream",
+          "soft white",
+          "warm grey"
+        ],
+        "materials": [
+          "natural stone",
+          "dark walnut",
+          "bronze",
+          "quality plaster"
+        ],
+        "furniture": [
+          "classical symmetric pieces",
+          "carved wood"
+        ],
+        "lighting": [
+          "chandeliers",
+          "bronze sconces"
+        ],
+        "decor": [
+          "moldings",
+          "decorative panels",
+          "columns"
+        ],
+        "mood": [
+          "noble",
+          "symmetric",
+          "restrained"
+        ]
+      },
+      "architectureWarnings": [
+        "Do not add columns if it requires changing architecture",
+        "Decorative classical motifs on existing walls only"
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "neoclassic",
+      "displayName": "НЕОКЛАССИКА",
+      "voiceText": "Неоклассика",
+      "category": "classic",
+      "generationProfile": {
+        "palette": [
+          "beige",
+          "milk white",
+          "greige",
+          "warm ivory"
+        ],
+        "materials": [
+          "stone",
+          "marble accents",
+          "brass",
+          "plaster"
+        ],
+        "furniture": [
+          "soft modern classic sofas",
+          "symmetric compositions"
+        ],
+        "lighting": [
+          "neat chandeliers",
+          "brass pendants"
+        ],
+        "decor": [
+          "moldings",
+          "wainscoting",
+          "symmetrical artwork"
+        ],
+        "mood": [
+          "refined",
+          "light",
+          "elegant"
+        ]
+      },
+      "architectureWarnings": [
+        "Do not turn room into a palace",
+        "Keep it residential scale"
+      ],
+      "sortOrder": 2
+    },
+    {
+      "id": "baroque_rococo",
+      "displayName": "БАРОККО И РОКОКО",
+      "voiceText": "Барокко и рококо",
+      "category": "classic",
+      "generationProfile": {
+        "palette": [
+          "gold",
+          "ivory",
+          "deep burgundy",
+          "royal blue"
+        ],
+        "materials": [
+          "gilded wood",
+          "velvet",
+          "carved wood",
+          "decorative plaster",
+          "mirrors",
+          "marble"
+        ],
+        "furniture": [
+          "ornate carved pieces",
+          "velvet upholstery"
+        ],
+        "lighting": [
+          "crystal chandeliers",
+          "golden sconces"
+        ],
+        "decor": [
+          "gilded frames",
+          "ornate mirrors",
+          "tapestries"
+        ],
+        "mood": [
+          "opulent",
+          "theatrical",
+          "rich"
+        ]
+      },
+      "architectureWarnings": [
+        "Rich decor allowed, but do NOT change architecture"
+      ],
+      "sortOrder": 3
+    },
+    {
+      "id": "empire",
+      "displayName": "АМПИР",
+      "voiceText": "Ампир",
+      "category": "classic",
+      "generationProfile": {
+        "palette": [
+          "deep burgundy",
+          "forest green",
+          "cream",
+          "gold"
+        ],
+        "materials": [
+          "dark mahogany",
+          "bronze",
+          "gold leaf",
+          "marble"
+        ],
+        "furniture": [
+          "massive classical pieces",
+          "symmetrical layout"
+        ],
+        "lighting": [
+          "empire-style chandeliers"
+        ],
+        "decor": [
+          "military motifs",
+          "laurel wreaths",
+          "eagles"
+        ],
+        "mood": [
+          "monumental",
+          "grand",
+          "imperial"
+        ]
+      },
+      "architectureWarnings": [
+        "Symmetry required in furniture placement only"
+      ],
+      "sortOrder": 4
+    },
+    {
+      "id": "art_nouveau",
+      "displayName": "МОДЕРН",
+      "voiceText": "Модерн",
+      "category": "classic",
+      "generationProfile": {
+        "palette": [
+          "sage green",
+          "dusty rose",
+          "cream",
+          "amber"
+        ],
+        "materials": [
+          "wood",
+          "brass",
+          "warm glass",
+          "organic plaster"
+        ],
+        "furniture": [
+          "curved organic-form furniture"
+        ],
+        "lighting": [
+          "Tiffany-style lamps",
+          "brass fixtures"
+        ],
+        "decor": [
+          "floral motifs",
+          "stained glass panels as objects",
+          "nature-inspired art"
+        ],
+        "mood": [
+          "organic",
+          "flowing",
+          "artistic"
+        ]
+      },
+      "architectureWarnings": [
+        "Do NOT change real windows to stained-glass architecture",
+        "Stained glass allowed only as decorative object or existing window finish",
+        "Do not add arches"
+      ],
+      "sortOrder": 5
+    },
+    {
+      "id": "gothic",
+      "displayName": "ГОТИКА",
+      "voiceText": "Готика",
+      "category": "classic",
+      "generationProfile": {
+        "palette": [
+          "deep charcoal",
+          "burgundy",
+          "dark purple",
+          "black"
+        ],
+        "materials": [
+          "dark oak",
+          "wrought iron",
+          "stone texture"
+        ],
+        "furniture": [
+          "heavy carved wood furniture"
+        ],
+        "lighting": [
+          "candlelight-style chandeliers",
+          "dramatic sconces"
+        ],
+        "decor": [
+          "gothic motif textiles",
+          "heavy curtains",
+          "iron candleholders"
+        ],
+        "mood": [
+          "dramatic",
+          "dark",
+          "medieval"
+        ]
+      },
+      "architectureWarnings": [
+        "Do NOT change windows or doors to pointed arch shape",
+        "Preserve all window and door geometry exactly"
+      ],
+      "sortOrder": 6
+    },
+    {
+      "id": "minimalism",
+      "displayName": "МИНИМАЛИЗМ",
+      "voiceText": "Минимализм",
+      "category": "modern",
+      "generationProfile": {
+        "palette": [
+          "white",
+          "off-white",
+          "light grey",
+          "concrete"
+        ],
+        "materials": [
+          "matte surfaces",
+          "concrete",
+          "glass",
+          "brushed metal"
+        ],
+        "furniture": [
+          "low-profile minimal pieces",
+          "hidden storage"
+        ],
+        "lighting": [
+          "recessed architectural light",
+          "indirect glow"
+        ],
+        "decor": [
+          "almost none",
+          "single sculptural object"
+        ],
+        "mood": [
+          "clean",
+          "serene",
+          "disciplined"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 7
+    },
+    {
+      "id": "loft",
+      "displayName": "ЛОФТ",
+      "voiceText": "Лофт",
+      "category": "modern",
+      "generationProfile": {
+        "palette": [
+          "concrete grey",
+          "brick red",
+          "black",
+          "dark brown"
+        ],
+        "materials": [
+          "exposed concrete",
+          "brick",
+          "raw metal",
+          "reclaimed wood",
+          "leather"
+        ],
+        "furniture": [
+          "industrial metal + leather",
+          "factory-style"
+        ],
+        "lighting": [
+          "Edison bulbs",
+          "metal pendants",
+          "track lighting"
+        ],
+        "decor": [
+          "exposed pipes",
+          "metal shelving",
+          "vintage industrial objects"
+        ],
+        "mood": [
+          "raw",
+          "industrial",
+          "urban"
+        ]
+      },
+      "architectureWarnings": [
+        "Do NOT remove walls to create open space"
+      ],
+      "sortOrder": 8
+    },
+    {
+      "id": "high_tech",
+      "displayName": "ХАЙ-ТЕК",
+      "voiceText": "Хай-тек",
+      "category": "modern",
+      "generationProfile": {
+        "palette": [
+          "graphite",
+          "silver",
+          "chrome",
+          "white"
+        ],
+        "materials": [
+          "stainless steel",
+          "glass",
+          "polished metal",
+          "technical surfaces"
+        ],
+        "furniture": [
+          "geometric minimal futuristic"
+        ],
+        "lighting": [
+          "integrated LED",
+          "recessed technical lighting"
+        ],
+        "decor": [
+          "technology-inspired details",
+          "minimal"
+        ],
+        "mood": [
+          "futuristic",
+          "precise",
+          "technological"
+        ]
+      },
+      "architectureWarnings": [
+        "Do NOT add architectural openings or new levels"
+      ],
+      "sortOrder": 9
+    },
+    {
+      "id": "contemporary",
+      "displayName": "КОНТЕМПОРАРИ",
+      "voiceText": "КонтемпорАри.",
+      "category": "modern",
+      "generationProfile": {
+        "palette": [
+          "warm white",
+          "taupe",
+          "greige",
+          "soft brown"
+        ],
+        "materials": [
+          "wood",
+          "stone",
+          "fabric",
+          "glass"
+        ],
+        "furniture": [
+          "comfortable contemporary pieces"
+        ],
+        "lighting": [
+          "pendant lights",
+          "floor lamps",
+          "warm LED"
+        ],
+        "decor": [
+          "curated neutral art",
+          "plants",
+          "books"
+        ],
+        "mood": [
+          "comfortable",
+          "practical",
+          "timeless"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 10
+    },
+    {
+      "id": "bauhaus",
+      "displayName": "БАУХАУС",
+      "voiceText": "Баухаус",
+      "category": "modern",
+      "generationProfile": {
+        "palette": [
+          "primary red",
+          "yellow",
+          "blue accents on white/grey base"
+        ],
+        "materials": [
+          "tubular steel",
+          "leather",
+          "glass",
+          "plywood"
+        ],
+        "furniture": [
+          "Bauhaus classics — Barcelona chair silhouette",
+          "Breuer-style"
+        ],
+        "lighting": [
+          "simple geometric pendants"
+        ],
+        "decor": [
+          "geometric art",
+          "minimal ornament"
+        ],
+        "mood": [
+          "functional",
+          "geometric",
+          "architectural"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 11
+    },
+    {
+      "id": "brutalism",
+      "displayName": "БРУТАЛИЗМ",
+      "voiceText": "Брутализм",
+      "category": "modern",
+      "generationProfile": {
+        "palette": [
+          "raw concrete grey",
+          "charcoal",
+          "black",
+          "stone white"
+        ],
+        "materials": [
+          "exposed concrete",
+          "rough stone",
+          "raw metal"
+        ],
+        "furniture": [
+          "sculptural massive pieces",
+          "concrete-look"
+        ],
+        "lighting": [
+          "dramatic directed lighting"
+        ],
+        "decor": [
+          "minimal",
+          "sculptural objects"
+        ],
+        "mood": [
+          "raw",
+          "massive",
+          "honest"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 12
+    },
+    {
+      "id": "scandinavian",
+      "displayName": "СКАНДИНАВСКИЙ",
+      "voiceText": "Скандинавский",
+      "category": "ethnic",
+      "generationProfile": {
+        "palette": [
+          "white",
+          "light grey",
+          "natural wood tones",
+          "soft sage"
+        ],
+        "materials": [
+          "light birch/pine",
+          "linen",
+          "wool",
+          "ceramic"
+        ],
+        "furniture": [
+          "simple functional wooden pieces"
+        ],
+        "lighting": [
+          "simple pendants",
+          "natural daylight emphasis"
+        ],
+        "decor": [
+          "plants",
+          "minimal textiles",
+          "candles"
+        ],
+        "mood": [
+          "cozy",
+          "clean",
+          "natural"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 13
+    },
+    {
+      "id": "japandi",
+      "displayName": "ДЖАПАНДИ",
+      "voiceText": "Джапанди",
+      "category": "ethnic",
+      "generationProfile": {
+        "palette": [
+          "warm beige",
+          "sand",
+          "warm grey",
+          "natural oak"
+        ],
+        "materials": [
+          "natural oak",
+          "lime plaster",
+          "warm stone",
+          "linen",
+          "ceramic"
+        ],
+        "furniture": [
+          "low, minimal Japanese-Scandinavian pieces"
+        ],
+        "lighting": [
+          "diffused warm light",
+          "paper shades"
+        ],
+        "decor": [
+          "single ceramic piece",
+          "wabi-sabi imperfections"
+        ],
+        "mood": [
+          "calm",
+          "minimal",
+          "deeply natural"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 14
+    },
+    {
+      "id": "provence",
+      "displayName": "ПРОВАНС",
+      "voiceText": "Прованс",
+      "category": "ethnic",
+      "generationProfile": {
+        "palette": [
+          "cream",
+          "dusty blue",
+          "soft lavender",
+          "sage green"
+        ],
+        "materials": [
+          "aged wood",
+          "linen",
+          "ceramic tiles"
+        ],
+        "furniture": [
+          "distressed painted wood furniture"
+        ],
+        "lighting": [
+          "wrought iron fixtures",
+          "soft warm light"
+        ],
+        "decor": [
+          "floral fabrics",
+          "lavender",
+          "ceramic pitchers"
+        ],
+        "mood": [
+          "rustic",
+          "romantic",
+          "pastoral"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 15
+    },
+    {
+      "id": "mediterranean",
+      "displayName": "СРЕДИЗЕМНОМОРСКИЙ",
+      "voiceText": "Средиземноморский",
+      "category": "ethnic",
+      "generationProfile": {
+        "palette": [
+          "terracotta",
+          "cobalt blue",
+          "olive",
+          "warm white"
+        ],
+        "materials": [
+          "white plaster",
+          "terracotta tiles",
+          "natural wood",
+          "ceramic"
+        ],
+        "furniture": [
+          "wicker",
+          "painted wood"
+        ],
+        "lighting": [
+          "wrought iron lanterns",
+          "warm ambient"
+        ],
+        "decor": [
+          "ceramic pots",
+          "mosaic accents",
+          "olive branches"
+        ],
+        "mood": [
+          "sunny",
+          "relaxed",
+          "coastal"
+        ]
+      },
+      "architectureWarnings": [
+        "Do NOT automatically create arches",
+        "If original opening is rectangular, keep it rectangular",
+        "Do not add new windows"
+      ],
+      "sortOrder": 16
+    },
+    {
+      "id": "moroccan",
+      "displayName": "ВОСТОЧНЫЙ",
+      "voiceText": "Восточный стиль.",
+      "category": "ethnic",
+      "generationProfile": {
+        "palette": [
+          "jewel tones",
+          "deep teal",
+          "saffron",
+          "bordeaux"
+        ],
+        "materials": [
+          "zellige tiles as wall decor",
+          "brass",
+          "copper",
+          "carved wood panels"
+        ],
+        "furniture": [
+          "low carved wooden pieces",
+          "cushioned seating"
+        ],
+        "lighting": [
+          "brass lanterns",
+          "pierced metal pendants"
+        ],
+        "decor": [
+          "kilim rugs",
+          "mosaic patterns",
+          "copper trays"
+        ],
+        "mood": [
+          "exotic",
+          "layered",
+          "rich"
+        ]
+      },
+      "architectureWarnings": [
+        "Do NOT turn rectangular doors into arched doors",
+        "Preserve all door geometry"
+      ],
+      "sortOrder": 17
+    },
+    {
+      "id": "american_classic",
+      "displayName": "АМЕРИКАНСКАЯ КЛАССИКА",
+      "voiceText": "Американская классика",
+      "category": "ethnic",
+      "generationProfile": {
+        "palette": [
+          "navy",
+          "warm white",
+          "tan",
+          "forest green"
+        ],
+        "materials": [
+          "dark stained wood",
+          "upholstered fabrics",
+          "wainscoting"
+        ],
+        "furniture": [
+          "deep tufted sofas",
+          "wingback chairs",
+          "solid wood"
+        ],
+        "lighting": [
+          "classic table lamps",
+          "banker lights"
+        ],
+        "decor": [
+          "books",
+          "americana art",
+          "framed prints"
+        ],
+        "mood": [
+          "comfortable",
+          "established",
+          "familiar"
+        ]
+      },
+      "architectureWarnings": [
+        "Do NOT add fireplace if it requires changing a wall structure",
+        "Decorative fireplace element only if non-structural"
+      ],
+      "sortOrder": 18
+    },
+    {
+      "id": "mid_century",
+      "displayName": "МИД-СЕНЧУРИ",
+      "voiceText": "Мид-сенчури модерн",
+      "category": "retro",
+      "generationProfile": {
+        "palette": [
+          "mustard",
+          "olive",
+          "burnt orange",
+          "warm white"
+        ],
+        "materials": [
+          "walnut",
+          "teak",
+          "tapered metal legs"
+        ],
+        "furniture": [
+          "iconic 50s/60s silhouettes",
+          "tapered legs"
+        ],
+        "lighting": [
+          "retro arc lamps",
+          "Sputnik chandelier silhouette"
+        ],
+        "decor": [
+          "vintage posters",
+          "atomic-age objects"
+        ],
+        "mood": [
+          "optimistic",
+          "retro-modern",
+          "iconic"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 19
+    },
+    {
+      "id": "art_deco",
+      "displayName": "АР-ДЕКО",
+      "voiceText": "Ар-деко",
+      "category": "retro",
+      "generationProfile": {
+        "palette": [
+          "black",
+          "gold",
+          "deep teal",
+          "ivory"
+        ],
+        "materials": [
+          "marble",
+          "velvet",
+          "lacquered surfaces",
+          "brass",
+          "mirrored glass"
+        ],
+        "furniture": [
+          "geometric luxury pieces"
+        ],
+        "lighting": [
+          "fan-shaped sconces",
+          "geometric pendants"
+        ],
+        "decor": [
+          "geometric patterns",
+          "luxurious art deco prints"
+        ],
+        "mood": [
+          "glamorous",
+          "luxurious",
+          "geometric"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 20
+    },
+    {
+      "id": "retro",
+      "displayName": "РЕТРО",
+      "voiceText": "Ретро",
+      "category": "retro",
+      "generationProfile": {
+        "palette": [
+          "avocado green",
+          "terracotta",
+          "brown",
+          "harvest gold"
+        ],
+        "materials": [
+          "vinyl",
+          "formica",
+          "chrome",
+          "shag carpet"
+        ],
+        "furniture": [
+          "curved 70s/80s furniture"
+        ],
+        "lighting": [
+          "groovy retro lamps",
+          "floor lamps"
+        ],
+        "decor": [
+          "vintage objects",
+          "retro patterns",
+          "plants"
+        ],
+        "mood": [
+          "nostalgic",
+          "warm",
+          "eclectic"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 21
+    },
+    {
+      "id": "shabby_chic",
+      "displayName": "ШЕББИ-ШИК",
+      "voiceText": "Шебби-шик",
+      "category": "retro",
+      "generationProfile": {
+        "palette": [
+          "rose",
+          "cream",
+          "powder blue",
+          "mint"
+        ],
+        "materials": [
+          "distressed white-painted wood",
+          "lace",
+          "cotton"
+        ],
+        "furniture": [
+          "vintage painted furniture",
+          "ornate but worn"
+        ],
+        "lighting": [
+          "crystal chandelier",
+          "soft warm"
+        ],
+        "decor": [
+          "floral fabrics",
+          "vintage frames",
+          "dried flowers"
+        ],
+        "mood": [
+          "romantic",
+          "feminine",
+          "soft"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 22
+    },
+    {
+      "id": "boho",
+      "displayName": "БОХО",
+      "voiceText": "Бохо",
+      "category": "natural",
+      "generationProfile": {
+        "palette": [
+          "warm terracotta",
+          "camel",
+          "sage",
+          "cream"
+        ],
+        "materials": [
+          "rattan",
+          "woven textiles",
+          "macrame",
+          "kilim"
+        ],
+        "furniture": [
+          "rattan chairs",
+          "floor cushions",
+          "layered textiles"
+        ],
+        "lighting": [
+          "warm Edison",
+          "candles",
+          "rattan pendants"
+        ],
+        "decor": [
+          "macrame wall art",
+          "plants",
+          "layered rugs"
+        ],
+        "mood": [
+          "free-spirited",
+          "warm",
+          "layered"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 23
+    },
+    {
+      "id": "eco",
+      "displayName": "ЭКО-СТИЛЬ",
+      "voiceText": "Эко-стиль",
+      "category": "natural",
+      "generationProfile": {
+        "palette": [
+          "forest green",
+          "earth brown",
+          "cream",
+          "stone grey"
+        ],
+        "materials": [
+          "natural timber",
+          "linen",
+          "jute",
+          "stone",
+          "cork"
+        ],
+        "furniture": [
+          "organic-shaped wooden pieces"
+        ],
+        "lighting": [
+          "natural daylight emphasis",
+          "linen shades"
+        ],
+        "decor": [
+          "plants",
+          "moss art",
+          "natural sculptures"
+        ],
+        "mood": [
+          "grounded",
+          "organic",
+          "sustainable"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 24
+    },
+    {
+      "id": "chalet",
+      "displayName": "ШАЛЕ",
+      "voiceText": "Шале",
+      "category": "natural",
+      "generationProfile": {
+        "palette": [
+          "warm wood tones",
+          "cream",
+          "forest green",
+          "stone grey"
+        ],
+        "materials": [
+          "rough timber",
+          "rough stone",
+          "wool",
+          "leather"
+        ],
+        "furniture": [
+          "heavy wooden pieces",
+          "leather sofas"
+        ],
+        "lighting": [
+          "warm fire-like illumination",
+          "antler-style"
+        ],
+        "decor": [
+          "furs",
+          "wool throws",
+          "alpine accessories"
+        ],
+        "mood": [
+          "cozy",
+          "alpine",
+          "warm"
+        ]
+      },
+      "architectureWarnings": [
+        "Do NOT change ceiling or roof structure",
+        "Preserve all ceiling geometry"
+      ],
+      "sortOrder": 25
+    },
+    {
+      "id": "rustic",
+      "displayName": "РУСТИК",
+      "voiceText": "Рустик",
+      "category": "natural",
+      "generationProfile": {
+        "palette": [
+          "raw wood",
+          "cream",
+          "stone grey",
+          "earth brown"
+        ],
+        "materials": [
+          "reclaimed timber",
+          "rough stone",
+          "linen",
+          "metal"
+        ],
+        "furniture": [
+          "chunky handmade wooden furniture"
+        ],
+        "lighting": [
+          "lantern-style",
+          "Edison filament"
+        ],
+        "decor": [
+          "natural textures",
+          "woven baskets",
+          "ironwork"
+        ],
+        "mood": [
+          "raw",
+          "authentic",
+          "handcrafted"
+        ]
+      },
+      "architectureWarnings": [],
+      "sortOrder": 26
+    },
+    {
+      "id": "eclectic",
+      "displayName": "ЭКЛЕКТИКА",
+      "voiceText": "Эклектика",
+      "category": "natural",
+      "generationProfile": {
+        "palette": [
+          "neutral architectural base with 2-3 accent colors"
+        ],
+        "materials": [
+          "mix of complementary textures"
+        ],
+        "furniture": [
+          "curated mix of 2-3 compatible styles"
+        ],
+        "lighting": [
+          "layered",
+          "multiple sources"
+        ],
+        "decor": [
+          "artwork",
+          "sculptural objects",
+          "texture layers"
+        ],
+        "mood": [
+          "curated",
+          "expressive",
+          "controlled"
+        ]
+      },
+      "architectureWarnings": [
+        "Do not make it chaotic — keep 3 complementary styles max",
+        "Neutral architectural base required"
+      ],
+      "sortOrder": 27
+    }
+  ]
+}

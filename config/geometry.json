@@ -1,0 +1,18 @@
+{
+  "translationThresholdPct": 1.5,
+  "rotationThresholdDeg": 0.5,
+  "scaleThresholdPct": 2.0,
+  "perspectiveDriftMax": 0.03,
+  "passScore": 0.94,
+  "reviewScore": 0.88,
+  "failScore": 0.88,
+  "featureMatchMinInliers": 40,
+  "cannyLow": 50,
+  "cannyHigh": 150,
+  "houghThreshold": 80,
+  "houghMinLineLength": 100,
+  "houghMaxLineGap": 10,
+  "lightGlueEnabled": false,
+  "debugOverlay": true,
+  "debugOverlayOpacity": 0.5
+}

@@ -1,0 +1,52 @@
+version: '3.9'
+
+services:
+  telegram-bot:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.bot
+    env_file: .env
+    volumes:
+      - ./storage:/app/storage
+      - ./data:/app/data
+      - ./assets:/app/assets
+      - ./config:/app/config
+    restart: unless-stopped
+    depends_on:
+      - geometry-guardian
+
+  browser-worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    env_file: .env
+    volumes:
+      - ./storage:/app/storage
+      - ./data:/app/data
+      - ./assets:/app/assets
+      - ./config:/app/config
+    restart: unless-stopped
+    depends_on:
+      - geometry-guardian
+    # Browser worker needs display for non-headless (optional)
+    environment:
+      - BROWSER_HEADLESS=true
+
+  geometry-guardian:
+    build:
+      context: services/geometry-guardian
+      dockerfile: ../../docker/Dockerfile.guardian
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./storage:/app/storage
+      - ./config:/app/config
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  storage:
