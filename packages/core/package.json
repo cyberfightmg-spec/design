@@ -2,6 +2,7 @@
   "name": "@interior/core",
   "version": "1.0.0",
   "private": true,
+  "description": "Shared core for configuration, project state, storage, logging, IDs and orchestration primitives.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
