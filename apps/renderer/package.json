@@ -2,6 +2,7 @@
   "name": "renderer",
   "version": "1.0.0",
   "private": true,
+  "description": "FFmpeg rendering pipeline for vertical interior-style videos with generated visuals and Fish Audio voiceover.",
   "type": "module",
   "scripts": {
     "build": "tsc",
