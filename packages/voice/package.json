@@ -2,6 +2,7 @@
   "name": "@interior/voice",
   "version": "1.0.0",
   "private": true,
+  "description": "Fish Audio text-to-speech integration for intro narration and interior style names.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
