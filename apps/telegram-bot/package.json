@@ -2,6 +2,7 @@
   "name": "telegram-bot",
   "version": "1.0.0",
   "private": true,
+  "description": "Telegram interface for uploading room photos, selecting interior styles and delivering generated redesign results.",
   "type": "module",
   "scripts": {
     "build": "tsc",
