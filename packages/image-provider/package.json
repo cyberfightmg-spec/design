@@ -2,6 +2,7 @@
   "name": "@interior/image-provider",
   "version": "1.0.0",
   "private": true,
+  "description": "Image generation provider abstraction for browser-based and API-based interior redesign workflows.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
