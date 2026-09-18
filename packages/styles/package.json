@@ -2,6 +2,7 @@
   "name": "@interior/styles",
   "version": "1.0.0",
   "private": true,
+  "description": "Interior style profiles and prompt-building rules for 27 redesign styles with architecture constraints.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
